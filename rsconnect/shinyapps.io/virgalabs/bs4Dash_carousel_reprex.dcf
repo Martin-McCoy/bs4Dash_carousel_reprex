@@ -1,0 +1,14 @@
+name: bs4Dash_carousel_reprex
+title: bs4Dash_carousel_reprex
+username:
+account: virgalabs
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 7347350
+bundleId: 6416987
+url: https://virgalabs.shinyapps.io/bs4Dash_carousel_reprex/
+when: 1666131641.37665
+lastSyncTime: 1666131641.37666
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: dev/01_start.R|dev/02_dev.R|dev/03_deploy.R|dev/run_dev.R|man/run_app.Rd
