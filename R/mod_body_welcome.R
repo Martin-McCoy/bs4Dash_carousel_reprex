@@ -36,7 +36,7 @@ mod_body_welcome_server <- function(id){
     shiny::showModal(
       shiny::modalDialog(
         id = "splash",
-        uiOutput(ns("intro_carousel")),
+        uiOutput("carousel_content"),
         easyClose = TRUE,
         size = "xl",
         footer = NULL
@@ -47,7 +47,7 @@ mod_body_welcome_server <- function(id){
 
 
 
-   output$intro_carousel <- renderUI({
+   output$carousel_content <- renderUI({
 
      bs4Dash::carousel(
        id = "intro_carousel",
